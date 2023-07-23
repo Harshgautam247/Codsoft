@@ -4,13 +4,14 @@
     margin: 0px;
     padding: 0p;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 }
 
 
 
 body{
-    background-color: gray;
+    background-color: #fff
 }
 
 .navli{
@@ -47,6 +48,18 @@ body{
     border-radius: 30px;
     font-size: 15px;
 }
+.search{
+    height: 50px;
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    background-color: #000;
+
+}
+
 span{
     margin-right: 10px;
 }
@@ -65,6 +78,7 @@ li {
 
 .head > li{
     font-size: 20px;
+    color: #000;
 }
 
 .newnav{
@@ -93,37 +107,83 @@ li {
 }
 
 .middletext{
-    border: 1px solid red;
-    height: 80px;
-    padding: 10px;
+    /* border: 1px solid red; */
+    height: 160px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.middletext > h2{
+    margin-bottom: 10px;
+}
+
+.middletext > p{
+    font-family: 'Dancing Script', cursive;
 }
 .about{
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 40vh;
     justify-content: space-around;
+    margin: 10px;
 
 }
 
 .abouttext{
     height: 100%;
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    /* margin: 10px; */
 
+}
+
+.abouttext > h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.abouttext > h3{
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.abouttext > p{
+    font-size: 20px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.abouttext > button{
+    height: 50px;
+    width: 150px;
+    /* margin-top: 10px; */
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    background-color: #000;
 }
 
 .aboutimg{
     height: 100%;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
+}
+
+.our{
+    font-size: 50px;
+    margin: 30px;
+    font-weight: 900;
 }
 
 .footer{
     display: flex;
-    justify-content: space-between;
-    border: 1px solid black;
-    /* height: 150px; */
+    justify-content: space-around;
+    /* border: 2px solid black; */
+
+    height: 350px;
     /* width: 100%; */
 
 }
@@ -131,7 +191,8 @@ li {
 .footerimg{
     /* height: 100%; */
     /* width: 50px;  */
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    margin: 10px;
 
 }
 
